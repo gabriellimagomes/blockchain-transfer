@@ -1,0 +1,81 @@
+# Scala and SBT
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+.metals/
+.bloop/
+.bsp/
+.cache/
+.worksheet/
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+*.sublime-project
+*.sublime-workspace
+
+# VS Code
+.vscode/
+.history/
+.vscode-test/
+
+# Mac OS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Simple Build Tool (SBT)
+dist/*
+lib/*/logs/
+lib/*/target/
+project/boot/
+project/plugins/project/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Play Framework
+logs/
+tmp/
+!tmp/.gitkeep
+!logs/.gitkeep
+
+# Eclipse
+*.launch
+*.classpath
+*.project
+.metadata
+bin/
+tmp/
+
+# Package Files #
+# ############# #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Other
+*.class
+*.swp
+*~
+.project
+.idea
+.classpath
+.settings
